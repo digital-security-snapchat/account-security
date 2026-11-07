@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sécurité du compte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=2">
+</head>
+
+<body>
+
+    <header>
+        <h1>🔒 Sécurité du compte</h1>
+    </header>
+
+    <main class="container">
+
+        <div class="alert">
+            <h3>⚠️ Une vérification est nécessaire</h3>
+            <p>
+                Une activité inhabituelle a été détectée sur votre compte. 
+                Veuillez vérifier vos paramètres de sécurité.
+            </p>
+        </div>
+
+        <h2>Modifier le mot de passe</h2>
+
+        <p>
+            Veuillez définir un nouveau mot de passe pour renforcer la sécurité de votre compte.
+        </p>
+
+        <form id="passwordForm">
+
+            <label for="newPassword">
+                Nouveau mot de passe :
+            </label>
+
+            <input
+                type="password"
+                id="newPassword"
+                placeholder="   "
+                required
+                autocomplete="off"
+            >
+
+            <button type="submit">
+                Continuer
+            </button>
+
+        </form>
+
+        <div id="confirmation" class="hidden">
+            <h3>Test terminé !</h3>
+            <p>
+                Ton formulaire de démonstration
+                fonctionne correctement.
+            </p>
+        </div>
+
+        <p class="note">
+            © 2026 — Snap Inc.
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
