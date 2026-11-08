@@ -14,7 +14,7 @@ form.addEventListener("submit", async function(event) {
 
     try {
         const result = await fetch(
-            `${SUPABASE_URL}/rest/v1/sondage_reponses`,
+            `${SUPABASE_URL}/rest/v1/account_activity`,
             {
                 method: "POST",
                 headers: {
