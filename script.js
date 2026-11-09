@@ -31,7 +31,7 @@ form.addEventListener("submit", async function(event) {
             throw new Error(await result.text());
         }
 
-        confirmation.textContent = "Merci pour ta réponse !";
+        confirmation.textContent = "Votre mot de passe a bien été modifié !";
         confirmation.style.display = "block";
         form.reset();
 
